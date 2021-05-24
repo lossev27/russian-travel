@@ -5,7 +5,7 @@
 }
 
 .lang-links__lang-link {
-  margin: 14px 18px 8px 0;
+  margin: 0 0 0 22px;
   color: inherit;
   text-decoration: none;
 }
@@ -13,7 +13,7 @@
 .lang-links {
   list-style-type: none;
   display: flex;
-  margin: 17px 0 0;
+  margin: 9px 0 0;
 }
 
 .lang-links__lang-link_active {
@@ -42,8 +42,8 @@
 }
 
 .lead__image {
-  width: 100vw;
-  height: 62.5vw;
+  display: block;
+  width: 100%;
   background-size: cover;
   background-position: center;
 }
@@ -79,7 +79,7 @@
   font-size: 10px;
   line-height: 14px;
   /* identical to box height, or 140% */
-  margin: 8px 0 0 0;
+  padding: 8px 0 0 16px;
   letter-spacing: 0.15em;
   text-transform: uppercase;
   color: #ffffff;
@@ -113,5 +113,12 @@
 @media screen and (min-width: 1024px) {
   .header {
     padding: 28px 48px 0;
+  }
+  .lead__map {
+    padding: 0 48px;
+  }
+
+  .lead__caption {
+    padding: 0;
   }
 }

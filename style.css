@@ -1,0 +1,107 @@
+.wrapper {
+  font-family: Inter, sans-serif;
+  background-color: #2a2c2f;
+  color: #fff;
+}
+
+.lang-links__lang-link {
+  margin: 14px 18px 8px 0;
+  color: inherit;
+  text-decoration: none;
+}
+
+.lang-links {
+  list-style-type: none;
+  display: flex;
+  margin: 17px 0 0;
+}
+
+.lang-links__lang-link_active {
+  border-bottom: 1px solid #fff;
+}
+
+.header {
+  padding: 16px 16px 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.header__logo {
+  background-image: url(./images/header-logo.svg);
+  color: #fff;
+  width: 142px;
+  height: 42px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.lead {
+  padding: 48px 0 0 0;
+}
+
+.lead__image {
+  width: 100vw;
+  height: 62.5vw;
+  background-size: cover;
+  background-position: center;
+}
+
+.lead__title {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 40px;
+  line-height: 44px; /*  тут точно дробью надо, пока хз ка посчитать надо */
+  text-align: center;
+  color: #ffffff;
+  padding: 0 0 16px 0;
+  margin: 0;
+}
+
+.lead__subtitle {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 20px;
+  text-align: center;
+  color: #ffffff;
+  padding: 0 0 40px 0;
+  margin: 0;
+}
+
+.lead__caption {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 10px;
+  line-height: 14px;
+  /* identical to box height, or 140% */
+  margin: 8px 0 0 0;
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+
+.content-padding {
+  padding: 0 16px;
+}
+
+@media screen and (min-width: 768px) {
+  .header {
+    padding: 28px 24px 0;
+  }
+
+  .header__logo {
+    width: 176px;
+    height: 52px;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .header {
+    padding: 28px 48px 0;
+  }
+}

@@ -98,6 +98,16 @@
     width: 176px;
     height: 52px;
   }
+
+  .lead__title {
+    font-size: 96px;
+    line-height: 100px;
+  }
+
+  .lead__subtitle {
+    font-size: 30px;
+    line-height: 36px;
+  }
 }
 
 @media screen and (min-width: 1024px) {

@@ -255,30 +255,9 @@
     min-width: 284px;
   }
 
-  .palce {
-    display:flex;
-    flex-wrap:wrap;
+  .place {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
   }
-  
-  .place__website {
-    width: 50%;
-  }
-  
-  .place__website_link {
-    width: 50%
-  }
-  
-  .place__website_url-heading {
-    width: 50%;
-  }
-  .palce__image {
-    width: 50%
-  }
-  
-  .plsce__description {
-    width: 50%;
-  }
-  
-  .place__title {
-    width: 50%;
-  }
+
+}

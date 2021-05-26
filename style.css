@@ -149,7 +149,7 @@
   max-width: 460px;
 }
 
-.place__website_link {
+.place__link {
   font-size: 18px;
   line-height: 22px;
   /* identical to box height, or 122% */
@@ -257,7 +257,45 @@
 
   .place {
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 460px 1fr;
+    margin: 80px 0 0;
   }
 
+  .place__website {
+    margin-left: 40px;
+  }
+
+  .place__description {
+    flex-basis: 50%;
+    margin: 0 0 0 40px;
+    width: 484px;
+  }
+
+  .place__paragraph {
+    margin: 0 0 26px;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 163%;
+  }
+
+  .place__title {
+    font-style: normal;
+    font-weight: 900;
+    font-size: 72px;
+    line-height: 76px;
+    margin: 0 0 48px;
+  }
+
+  .place__url-heading {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 170%;
+    /* or 20px */
+    letter-spacing: 0.2em;
+    color: #aaaaaa;
+    margin: 0 0 12px;
+  }
 }

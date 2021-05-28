@@ -1,14 +1,14 @@
 .place__image {
   display: block;
   width: 100%;
-  max-width: 320px;
+  min-width: 320px;
 }
 
 @media screen and (min-width: 768px) {
   .place__image {
     display: block;
     width: 100%;
-    max-width: 340px;
+    min-width: 340px;
   }
 }
 
@@ -16,7 +16,7 @@
   .place__image {
     display: block;
     width: 100%;
-    max-width: 440px;
+    min-width: 440px;
   }
 }
 
@@ -24,6 +24,6 @@
   .place__image {
     display: block;
     width: 100%;
-    max-width: 460px;
+    min-width: 460px;
   }
 }

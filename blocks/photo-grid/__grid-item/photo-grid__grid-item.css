@@ -1,25 +1,25 @@
 .photo-grid__grid-item {
   width: 100%;
-  max-width: 288px;
+  min-width: 288px;
 }
 
 @media screen and (min-width: 768px) {
   .photo-grid__grid-item {
     width: 100%;
-    max-width: 352px;
+    min-width: 352px;
   }
 }
 
 @media screen and (min-width: 1024px) {
   .photo-grid__grid-item {
     width: 100%;
-    max-width: 300px;
+    min-width: 300px;
   }
 }
 
 @media screen and (min-width: 1280px) {
   .photo-grid__grid-item {
     width: 100%;
-    max-width: 460px;
+    min-width: 460px;
   }
 }

@@ -2,11 +2,19 @@
   padding: 50px 0 0;
 }
 
+.place:last-of-type {
+  padding: 0 0 66px;
+}
+
 @media screen and (min-width: 768px) {
   .place {
     display: grid;
     grid-template-columns: 340px 1fr;
     padding: 0 0 73px;
+  }
+
+  .place:last-of-type {
+    padding: 0 0 90px;
   }
 }
 
@@ -15,6 +23,10 @@
     display: grid;
     grid-template-columns: 440px 1fr;
     padding: 0 0 80px;
+  }
+
+  .place:last-of-type {
+    padding: 0 0 92px;
   }
 }
 

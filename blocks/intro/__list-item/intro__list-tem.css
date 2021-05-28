@@ -1,0 +1,10 @@
+.intro__list-item {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 12px;
+  line-height: 18px;
+  /* or 150% */
+}
+.place__paragraph:last-of-type {
+  margin-bottom: 0;
+}

@@ -16,7 +16,7 @@
 
 @media screen and (min-width: 1024px) {
   .photo-grid {
-    gap: 16px;
+    gap: 14px;
     grid-template-columns: 1fr 1fr 1fr;
   }
 }

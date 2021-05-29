@@ -9,6 +9,8 @@
   width: 7.5em;
 }
 
+opacity: 0.8;
+
 @media screen and (min-width: 768px) {
   .cover__title {
     font-size: 72px;

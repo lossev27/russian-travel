@@ -1,10 +1,10 @@
-.footer-items {
+.footer__links {
   display: flex;
   flex-direction: column;
 }
 
 @media screen and (min-width: 768px) {
-  .footer-items {
+  .footer__links {
     display: flex;
     flex-direction: row;
     justify-content: space-between;

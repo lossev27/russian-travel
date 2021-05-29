@@ -1,29 +1,29 @@
 .place__image {
-  display: block;
   width: 100%;
-  min-width: 320px;
+  max-width: 320px;
+  display: block;
 }
 
 @media screen and (min-width: 768px) {
   .place__image {
-    display: block;
     width: 100%;
     min-width: 340px;
+    display: block;
   }
 }
 
 @media screen and (min-width: 1024px) {
   .place__image {
-    display: block;
     width: 100%;
     min-width: 440px;
+    display: block;
   }
 }
 
 @media screen and (min-width: 1280px) {
   .place__image {
-    display: block;
     width: 100%;
     min-width: 460px;
+    display: block;
   }
 }

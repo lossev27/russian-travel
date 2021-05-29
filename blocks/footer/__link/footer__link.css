@@ -11,6 +11,10 @@
   display: block;
 }
 
+.footer__link:hover {
+  opacity: 0.8;
+}
+
 @media screen and (min-width: 768px) {
   .footer__link {
     font-style: normal;

@@ -6,6 +6,11 @@
   line-height: 20px;
 }
 
+.lang-links__lang-link:hover {
+  opacity: 0.8;
+  transition: 2ms;
+}
+
 @media screen and (min-width: 768px) {
   .lang-links__lang-link {
     font-size: 24px;

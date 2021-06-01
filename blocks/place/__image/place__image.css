@@ -6,24 +6,18 @@
 
 @media screen and (min-width: 768px) {
   .place__image {
-    width: 100%;
     min-width: 340px;
-    display: block;
   }
 }
 
 @media screen and (min-width: 1024px) {
   .place__image {
-    width: 100%;
     min-width: 440px;
-    display: block;
   }
 }
 
 @media screen and (min-width: 1280px) {
   .place__image {
-    width: 100%;
     min-width: 460px;
-    display: block;
   }
 }

@@ -8,11 +8,11 @@
   margin: 0;
   margin-bottom: 32px;
   display: block;
+  transition: 3ms;
 }
 
 .footer__link:hover {
   opacity: 0.8;
-  transition: 3ms;
 }
 
 @media screen and (min-width: 768px) {

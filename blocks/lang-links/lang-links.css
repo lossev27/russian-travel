@@ -2,9 +2,4 @@
   list-style-type: none;
   display: flex;
   margin: 9px 0 0;
-  transition: 5ms;
-}
-
-.lang-links:hover {
-  opacity: 0.8;
 }

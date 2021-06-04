@@ -1,5 +1,5 @@
 .intro {
-  padding: 64px 15px 0;
+  padding: 64px 16px 0;
 }
 
 @media screen and (min-width: 768px) {
@@ -14,7 +14,7 @@
   }
 }
 
-@media screen and (min-width: 1024px) {
+@media screen and (min-width: 1280px) {
   .intro {
     padding: 92px 148px 0;
   }

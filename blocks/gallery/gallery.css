@@ -24,7 +24,7 @@
   }
 }
 
-@media screen and (min-width: 1280) {
+@media screen and (min-width: 1280px) {
   .gallery {
     gap: 16px;
     grid-template-columns: 1fr 1fr 1fr 1fr;
